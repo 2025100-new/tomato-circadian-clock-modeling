@@ -18,7 +18,7 @@ mpl.rcParams["axes.unicode_minus"] = False
 plt.close('all')
 
 
-df = pd.read_csv("CCA1 expression.csv", header = None, sep = ',')
+df = pd.read_csv("LHY expression.csv", header = None, sep = ',')
 time = df[0]
 mean_CK_LI = df[11]
 mean_CK_HI = df[12]
